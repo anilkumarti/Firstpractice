@@ -18,7 +18,7 @@ const UserForm = ({ onDataHandler }) => {
     { alert("Empty value cannot be submit")
 
     } else if(obj.Age<0)
-    {  alert("Age must be greater or equal to zero")
+    {  alert("Age>=0")
       
     }
      else {
