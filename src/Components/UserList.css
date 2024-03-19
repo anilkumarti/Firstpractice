@@ -1,0 +1,30 @@
+.user-list {
+    list-style-type: none; /* Remove default list bullets */
+    padding: 0; /* Remove default padding */
+    margin: 0; /* Remove default margin */
+    max-width: 600px; /* Set a max width for the list */
+    margin: auto; /* Center the list horizontally */
+  }
+  
+  .user-list li {
+    background-color: #f0f0f0; /* Light grey background */
+    color: #333; /* Dark grey text */
+    padding: 10px 15px; /* Add some padding around the text */
+    margin-bottom: 8px; /* Add some margin below each item */
+    border-radius: 5px; /* Slightly rounded corners for a softer look */
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* A subtle shadow to lift the items off the page */
+    display: flex; /* Use flexbox for layout */
+    align-items: center; /* Center items vertically */
+    justify-content: space-between; /* Space out the content and age */
+    font-size: 16px; /* Set a base font size */
+  }
+  
+  /* Optionally, style the text for the student name and age specifically */
+  .user-list li span.student-name {
+    font-weight: bold; /* Make the name stand out */
+  }
+  
+  .user-list li span.student-age {
+    font-style: italic; /* Slightly differentiate the age */
+  }
+  
